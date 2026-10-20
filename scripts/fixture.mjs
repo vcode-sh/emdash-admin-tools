@@ -86,7 +86,6 @@ const environment = {
 	TMPDIR: tmpdir(),
 	NODE_ENV: "development",
 	ASTRO_TELEMETRY_DISABLED: "1",
-	EMDASH_ENCRYPTION_KEY: "11".repeat(32),
 };
 const child = spawn(
 	process.execPath,
