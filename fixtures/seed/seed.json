@@ -1,0 +1,36 @@
+{
+	"version": "1",
+	"settings": { "title": "Admin Tools disposable host" },
+	"collections": [
+		{
+			"slug": "posts",
+			"label": "Posts",
+			"labelSingular": "Post",
+			"titleField": "title",
+			"supports": ["drafts", "revisions"],
+			"fields": [
+				{
+					"slug": "title",
+					"type": "string",
+					"label": "Title",
+					"required": true
+				}
+			]
+		},
+		{
+			"slug": "pages",
+			"label": "Pages",
+			"labelSingular": "Page",
+			"titleField": "title",
+			"supports": ["drafts", "revisions"],
+			"fields": [
+				{
+					"slug": "title",
+					"type": "string",
+					"label": "Title",
+					"required": true
+				}
+			]
+		}
+	]
+}
